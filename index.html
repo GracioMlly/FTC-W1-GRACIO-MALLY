@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
@@ -12,7 +18,7 @@
         Vaultflow
       </a>
 
-      <ul class="navabar__menu">
+      <ul class="navbar__menu">
         <li><a href="#">Features</a></li>
         <li><a href="#">Pricing</a></li>
         <li><a href="#">About us</a></li>
@@ -24,12 +30,12 @@
     <header>
       <div class="hero">
         <div class="hero__heading">
-          <p>We just raised $20M in Series B. Learn more</p>
+          <p class="pill__secondary">
+            We just raised $20M in Series B. Learn more
+          </p>
 
           <div class="hero__heading__content">
-            <h1>
-              <span>Modern analytics</span> <span>for the modern world</span>
-            </h1>
+            <h1>Modern analytics for the modern world</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros elementum tristique.
@@ -47,10 +53,13 @@
           alt="Vaultflow dashboard's screen"
         />
       </div>
+    </header>
 
-      <div class="logos">
+    <main>
+      <section class="logos">
         <p>
-          Trusted by teams at over 1,000 of the world’s leading organizations
+          Trusted by teams at over <span>1,000</span> of the world’s leading
+          organizations
         </p>
 
         <div>
@@ -65,10 +74,8 @@
           <img src="./src/assets/images/logo-lattice.svg" alt="Lattice logo" />
           <img src="./src/assets/images/logo-ted.svg" alt="TED logo" />
         </div>
-      </div>
-    </header>
+      </section>
 
-    <main>
       <section class="features">
         <div class="features__heading">
           <h2>
