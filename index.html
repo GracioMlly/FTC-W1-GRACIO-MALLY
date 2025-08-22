@@ -9,22 +9,24 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Vaultflow</title>
   </head>
   <body>
     <nav>
-      <a href="/" class="brand">
-        <img src="./src/assets/images/vaultflow-icon.svg" alt="#" />
-        Vaultflow
-      </a>
+      <div class="navContainer">
+        <a href="/" class="brand">
+          <img src="./src/assets/images/vaultflow-icon.svg" alt="#" />
+          Vaultflow
+        </a>
 
-      <ul class="navbar__menu">
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#" class="pill">Download the app</a></li>
-        <li><a href="#" class="pill__secondary">Talk to an expert</a></li>
-      </ul>
+        <ul class="navbar__menu">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#" class="pill">Download the app</a></li>
+          <li><a href="#" class="pill__secondary">Talk to an expert</a></li>
+        </ul>
+      </div>
     </nav>
 
     <header>
@@ -35,7 +37,7 @@
           </p>
 
           <div class="hero__heading__content">
-            <h1>Modern analytics for the modern world</h1>
+            <h1><span>Modern analytics</span> for the modern world</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros elementum tristique.
@@ -78,11 +80,7 @@
 
       <section class="features">
         <div class="features__heading">
-          <h2>
-            <span>Features that</span>
-            <span>work for your</span>
-            <span>future.</span>
-          </h2>
+          <h2>Features that work for your future.</h2>
 
           <p>
             Check out our amazing features and experience the power of Vaultflow
@@ -91,7 +89,7 @@
         </div>
 
         <div class="features__cards">
-          <div class="features__card">
+          <div class="features__card neon rounded">
             <img src="./src/assets/images/icon-01.svg" alt="#" />
 
             <div class="features__card__content">
@@ -106,7 +104,7 @@
             </div>
           </div>
 
-          <div class="features__card">
+          <div class="features__card neon rounded">
             <img src="./src/assets/images/icon-02.svg" alt="#" />
 
             <div class="features__card__content">
@@ -121,7 +119,7 @@
             </div>
           </div>
 
-          <div class="wrapper">
+          <div class="wrapper neon rounded">
             <div class="features__card">
               <img src="./src/assets/images/icon-03.svg" alt="#" />
 
@@ -139,16 +137,19 @@
               </div>
             </div>
 
-            <img
-              src="./src/assets/images/collaboration.png"
-              alt="Code collaboration"
-            />
+            <div>
+              <img
+                class="neon rounded"
+                src="./src/assets/images/collaboration.png"
+                alt="Code collaboration"
+              />
+            </div>
           </div>
         </div>
       </section>
 
       <section class="analytics">
-        <div class="analytics__content">
+        <div class="analytics__content neon rounded">
           <h2>Our powerful analytics provides invaluable insights.</h2>
           <p>
             Unlock the power of data with our cutting-edge analytics product.
