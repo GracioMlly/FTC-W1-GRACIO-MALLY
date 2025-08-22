@@ -1,5 +1,11 @@
 /* Default styles */
 
+#openMenuButton,
+#closeMenuButton {
+  border: none;
+  background-color: transparent;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -40,6 +46,34 @@ body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-display: swap;
+}
+
+.navbar__menu-mobile {
+  display: none;
+  padding: 1.25rem 1.25rem 2.5rem 1.25rem;
+  position: fixed;
+  inset: 0;
+  background-color: #0b0121;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  translate: 100%;
+
+  & > div {
+    padding-top: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  & ul {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.4375rem;
+    font-weight: 500;
+  }
 }
 
 /* Default styles */
@@ -425,6 +459,10 @@ address {
 }
 
 @media screen and (width >= 1024px) {
+  #openMenuButton {
+    display: none;
+  }
+
   .navContainer {
     padding: 1.25rem;
   }
